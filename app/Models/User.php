@@ -44,7 +44,11 @@ class User extends Authenticatable
      *
      * @var array<string, string>
      */
-    protected $casts = [
-        'email_verified_at' => 'datetime',
-    ];
+    // protected $casts = [
+    //     'email_verified_at' => 'datetime',
+    // ];
+    public function setEmailVerifiedAtAtribute($value)
+    {
+        $this->attributes['email_verified_at'] = date('Y-m-t', strtotime($value));
+    }
 }
