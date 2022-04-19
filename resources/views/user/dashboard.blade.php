@@ -41,7 +41,7 @@
                             @endif
                         </td>
                         <td>
-                            <a href="https://wa.me/081339616024?text=Hi, Saya ingin bertanya tentang kelas {{$checkout->Camp->title}}" class="btn btn-primary">
+                            <a href="https://wa.me/0813xxxxxx?text=Hi, Saya ingin bertanya tentang kelas {{$checkout->Camp->title}}" class="btn btn-primary">
                                 Contact Suppport
                             </a>
                         </td>
